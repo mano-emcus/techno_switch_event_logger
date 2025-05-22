@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Techno Switch Rhino 103 Controller -->
+    <usb-device vendor-id="1027" product-id="24577" /> <!-- Standard CDC device -->
+    <usb-device vendor-id="1027" product-id="24592" /> <!-- CDC ACM device -->
+    <!-- Add additional device IDs if needed -->
+</resources> 
