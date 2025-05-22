@@ -175,7 +175,7 @@ class _EventLoggerScreenState extends State<EventLoggerScreen> {
                 final log = _logs[index];
                 final isHeader = log.contains('EVENT-ID');
                 
-                return Card(
+                return isHeader ? Card(
                   margin: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
                   color: isHeader ? Colors.grey[200] : Colors.white,
                   child: Padding(
@@ -188,7 +188,7 @@ class _EventLoggerScreenState extends State<EventLoggerScreen> {
                       ),
                     ),
                   ),
-                );
+                ) : const SizedBox();
               },
             ),
           ),
